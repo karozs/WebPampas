@@ -4,8 +4,8 @@ export const touristSpots: TouristSpot[] = [
   {
     id: '1',
     name: 'Pamuri Acraquia',
-    description: 'Impresionante caída de agua de 80 metros rodeada de vegetación andina.',
-    fullDescription: 'La Cascada de Huancaya es una de las joyas naturales más importantes de Pampas. Con una caída de 80 metros de altura, esta cascada ofrece un espectáculo natural único rodeada de flora y fauna típica de la región. Es ideal para trekking, fotografía y conexión con la naturaleza.',
+    description: 'Pamuri – Acraquia',
+    fullDescription: 'Pamuri, ubicado en el distrito de Acraquia, es un lugar tranquilo rodeado de naturaleza, ideal para quienes buscan descansar y desconectarse del ritmo de la ciudad. Sus paisajes verdes y el aire puro de la zona ofrecen un ambiente perfecto para disfrutar de caminatas, momentos de contemplación y experiencias en contacto con la vida rural. Es un rincón de paz en Tayacaja que invita a descubrir la belleza natural de Huancavelica.',
     image: 'https://pamuriandeslodge.com/wp-content/uploads/2025/02/kit-de-actividades-Pamuri-2025.png',
     location: {
       lat: -12.4089,
@@ -61,7 +61,7 @@ export const touristSpots: TouristSpot[] = [
     id: '5',
     name: 'Casa Hacienca San Juan de Pillo',
     description: 'Laguna de aguas cristalinas ideal para deportes acuáticos.',
-    fullDescription: 'Azulcocha es una hermosa laguna de origen glaciar ubicada en los alrededores de Pampas. Sus aguas cristalinas de color azul intenso la convierten en un destino ideal para la pesca deportiva, kayak y contemplación de la naturaleza en estado puro.',
+    fullDescription: 'La Casa Hacienda San Juan de Pillo es un destino único que combina historia, tradición y confort moderno. Además de su imponente arquitectura colonial, ofrece a los visitantes hospedaje en un ambiente acogedor y lleno de encanto. Cuenta con habitaciones cómodas, un restaurante que rescata los sabores típicos de la región, así como una piscigranja donde se puede degustar trucha fresca y conocer de cerca su crianza. Rodeada de paisajes naturales, es el lugar ideal para disfrutar de la gastronomía local, descansar y vivir una experiencia cultural auténtica en contacto con la tradición andina y la hospitalidad local.',
     image: 'https://scontent.flim2-2.fna.fbcdn.net/v/t51.82787-15/515722754_18514879039008842_638190527707370667_n.webp?stp=dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGamce_OgxupOmL0KkKE-lVyLI5izJRGCDIsjmLMlEYIJqJnzkzx8yA_jhNjCGaUYS4qcXtmf0ZEy-UY4yjgYSS&_nc_ohc=n0T9-LBvRggQ7kNvwFaoHML&_nc_oc=AdlQzydFs1Y1TmWuhUKS6U3g5KvLqxGLPg-E3jlJqXtAnrQHnlo3x4CG43CfBmKxuo-l9Xd7AX2VjDzhtUCn-YrW&_nc_zt=23&_nc_ht=scontent.flim2-2.fna&_nc_gid=-6JQ5xvbZmdavWhRnrNpzw&oh=00_AfYVIPzQWpWe24w3KWH0NAFhBDOv9Kof4sh70hqEKj2NQA&oe=68CCA10B',
     location: {
       lat: -12.3876,
@@ -281,7 +281,7 @@ export const events: Event[] = [
   {
     id: '3',
     name: 'Tayta San Cristóbal',
-    description: 'Evento gastronómico anual donde se preparan pachamancas comunales y se realizan concursos culinarios.',
+    description: 'Tradicional festividad de Pampas, Tayacaja, conocida por la subida y bajada de la cruz, que une fe, cultura y tradición andina.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMQd8LQ0XDFVAfD0RnWZcqx1rihd5XFT-g7SYXAYAoWK10z0a0GdmXnAco7N4qpHZ1zY&usqp=CAU',
     date: '1er domingo de Agosto',
     location: 'Campo ferial de Pampas',
