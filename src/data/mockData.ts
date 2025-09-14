@@ -10,7 +10,7 @@ export const touristSpots: TouristSpot[] = [
     location: {
       lat: -12.4089,
       lng: -74.8597,
-      address: 'Cascada de Huancaya, Pampas, Tayacaja'
+      address: 'Pamuri Acraquia, Pampas, Tayacaja'
     },
     rating: 4.8,
     category: 'natural'
@@ -66,7 +66,7 @@ export const touristSpots: TouristSpot[] = [
     location: {
       lat: -12.3876,
       lng: -74.8734,
-      address: 'Laguna Azulcocha, Pampas, Tayacaja'
+      address: 'Casa Hacienca San Juan de Pillo, Pampas, Tayacaja'
     },
     rating: 4.7,
     category: 'adventure'
@@ -91,7 +91,7 @@ export const restaurants: Restaurant[] = [
       { name: 'Cuy al Horno', price: 'S/ 35.00', description: 'Cuy criollo horneado con hierbas aromáticas y ají amarillo' },
       { name: 'Sopa de Quinua', price: 'S/ 12.00', description: 'Nutritiva sopa con quinua, verduras andinas y carne de alpaca' }
     ],
-    phone: '+51987654321',
+    phone: '+51977163359',
     email: 'sabores@pampas.com',
     hours: '7:00 AM - 10:00 PM'
   },
