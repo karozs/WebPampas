@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Facebook, Instagram, Send, MessageCircle } from 'lucide-react';
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -21,13 +22,34 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    // Configuración de EmailJS
+    const serviceID = 'service_51u4mbc'; // Reemplaza con tu Service ID
+    const templateID = 'template_t4ax0tr'; // Reemplaza con tu Template ID
+    const userID = 'S5iaztutSRGPRzAU0'; // Reemplaza con tu User ID (Public Key)
+    
+    // Parámetros del template
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      message: formData.message,
+      to_email: 'carlossilvaillesca0@gmail.com'
+    };
+
+    try {
+      const result = await emailjs.send(serviceID, templateID, templateParams, userID);
+      console.log('Email enviado exitosamente:', result);
+      
       setSubmitMessage('¡Gracias por tu mensaje! Te contactaremos pronto.');
       setFormData({ name: '', email: '', message: '' });
-      setIsSubmitting(false);
+      
       setTimeout(() => setSubmitMessage(''), 5000);
-    }, 2000);
+    } catch (error) {
+      console.error('Error al enviar email:', error);
+      setSubmitMessage('Hubo un error al enviar tu mensaje. Por favor, intenta de nuevo.');
+      setTimeout(() => setSubmitMessage(''), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -48,7 +70,11 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Envíanos un Mensaje</h3>
             
             {submitMessage && (
-              <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg mb-6">
+              <div className={`border px-4 py-3 rounded-lg mb-6 ${
+                submitMessage.includes('error') || submitMessage.includes('Hubo un error')
+                  ? 'bg-red-50 border-red-200 text-red-700'
+                  : 'bg-green-50 border-green-200 text-green-700'
+              }`}>
                 {submitMessage}
               </div>
             )}
