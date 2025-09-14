@@ -143,7 +143,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Teléfono</h4>
-                    <p className="text-gray-600">+51 967 123 456</p>
+                    <p className="text-gray-600">+51 977 163 359</p>
                     <p className="text-gray-600">+51 064 123 456</p>
                   </div>
                 </div>
@@ -165,9 +165,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">WhatsApp</h4>
-                    <p className="text-gray-600">+51 967 123 456</p>
+                    <p className="text-gray-600">+51 977 163 359</p>
                     <button
-                      onClick={() => window.open('https://wa.me/51967123456?text=Hola! Me gustaría información sobre el turismo en Pampas.', '_blank')}
+                      onClick={() => window.open('https://wa.me/51977163359?text=Hola! Me gustaría información sobre el turismo en Pampas.', '_blank')}
                       className="text-green-600 hover:text-green-800 text-sm font-medium"
                     >
                       Chatear ahora →
@@ -183,7 +183,7 @@ export default function Contact() {
               
               <div className="flex space-x-4">
                 <a
-                  href="https://facebook.com/pampastour"
+                  href="https://www.facebook.com/carlos.silva.123829"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full transition-colors duration-300 group"
@@ -191,7 +191,7 @@ export default function Contact() {
                   <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
                 </a>
                 <a
-                  href="https://instagram.com/pampastour"
+                  href="https://www.instagram.com/karos._.c/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-pink-600 hover:bg-pink-700 text-white p-4 rounded-full transition-colors duration-300 group"
