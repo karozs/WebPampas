@@ -22,8 +22,8 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'La Plaza de Armas es el centro neurálgico de Pampas, donde convergen la historia, cultura y vida cotidiana de sus habitantes. Rodeada de edificios coloniales y republicanos, es el lugar perfecto para conocer las tradiciones locales y disfrutar de eventos culturales.',
     image: 'https://scontent.flim2-5.fna.fbcdn.net/v/t51.75761-15/503019583_18145149367391443_7265379072396825701_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF5gd9mffHG2l7LnBfS1jFFy3wARY6L5JXLfABFjovklVxEqpFzLu8L5glulaix8oeidzakfJ5OSYb6_r-sI1EB&_nc_ohc=Kd_nGoqd50oQ7kNvwFkQfv-&_nc_oc=AdmBIMecgrNS4fyXJyUuzHSLoNFNljBfpwb7yX_l9iHP0BFZdNEZr1_796ohLhJ057hXnKxh5XruFYKO7pZpA-sx&_nc_zt=23&_nc_ht=scontent.flim2-5.fna&_nc_gid=RWYln4yPIRog2vlTju6O-Q&oh=00_AfZGnPgZWZMFRB1uz7POpk0dDbucMrDpvbqOi_8tfMJQzg&oe=68CCA154',
     location: {
-      lat: -12.4097,
-      lng: -74.8589,
+      lat: -12.398785,
+      lng: -74.868412,
       address: 'Plaza de Armas, Pampas, Tayacaja'
     },
     rating: 4.5,
@@ -36,8 +36,8 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'Ubicado estratégicamente en las alturas de Pampas, este mirador natural ofrece vistas espectaculares de la cordillera de los Andes y el verde valle que rodea la ciudad. Es el lugar perfecto para contemplar atardeceres y tomar las mejores fotografías panorámicas.',
     image: 'https://scontent.flim2-1.fna.fbcdn.net/v/t51.82787-15/515271679_18147846862391443_3592407269209285995_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF62tDDKXS2hL7tSkAVS-Czg1eryeooJlqDV6vJ6igmWgzWHvDAhK0WWgcIaFDh4bxQM5Q-Ii8w1dEJJ2Hfnqo9&_nc_ohc=URmHG1QIngMQ7kNvwFECkhL&_nc_oc=AdmoFg-g-oP01EVfcZVpckb_rv64S8W4L0uXl6XZnV9J-ozsPqLWj6dFBiyJt1AYtspmVbyEu991Juhs0H_aXVD1&_nc_zt=23&_nc_ht=scontent.flim2-1.fna&_nc_gid=ABRum2UzQIWgRIu0XTjI5w&oh=00_AfYbX0QhJnCfdi6tOa8olpX5X3yKj5dxoL5_Qzy1ZVSPPA&oe=68CCC4F6',
     location: {
-      lat: -12.4045,
-      lng: -74.8612,
+      lat: -12.40316704044473,
+      lng: -74.86859028983163,
       address: 'Mirador san Cristobal, Pampas, Tayacaja'
     },
     rating: 4.9,
@@ -50,8 +50,8 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'La Iglesia San Pedro es uno de los testimonios más importantes de la arquitectura colonial en Pampas. Construida en el siglo XVII, combina elementos barrocos con influencias andinas, siendo un importante centro de fe y tradición para la comunidad local.',
     image: 'https://scontent.flim2-2.fna.fbcdn.net/v/t39.30808-6/475307604_1338008647355686_2673178689393552737_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFrVPHk6aXeIPDanufO0v26FKcp5anUZycUpynlqdRnJzGGlVglD1XuvP1LqNOdGzGljOiS2RG_XRZYSra_aY_D&_nc_ohc=_LSthMQyGfwQ7kNvwG19IjV&_nc_oc=Admhd_o1NZk8XOaCyoZdMD62Sd678uvZn4iegtIWd2YYK6A7yLZqdOjivB0r-M_7CjBgNXOcv3zInWepw1T91wPB&_nc_zt=23&_nc_ht=scontent.flim2-2.fna&_nc_gid=sfIpFEIpljXvLQYkH5wL8w&oh=00_AfaO_oQe2GBszlZHNWdAFRRlyv0Ux6cqnhC3Yvc3qoBIMQ&oe=68CCB1C4',
     location: {
-      lat: -12.4102,
-      lng: -74.8585,
+      lat: -12.398330146866645,
+      lng: -74.8685612078774,
       address: 'Iglesia San Pedro, Pampas, Tayacaja'
     },
     rating: 4.3,
@@ -64,8 +64,8 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'La Casa Hacienda San Juan de Pillo es un destino único que combina historia, tradición y confort moderno. Además de su imponente arquitectura colonial, ofrece a los visitantes hospedaje en un ambiente acogedor y lleno de encanto. Cuenta con habitaciones cómodas, un restaurante que rescata los sabores típicos de la región, así como una piscigranja donde se puede degustar trucha fresca y conocer de cerca su crianza. Rodeada de paisajes naturales, es el lugar ideal para disfrutar de la gastronomía local, descansar y vivir una experiencia cultural auténtica en contacto con la tradición andina y la hospitalidad local.',
     image: 'https://scontent.flim2-2.fna.fbcdn.net/v/t51.82787-15/515722754_18514879039008842_638190527707370667_n.webp?stp=dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGamce_OgxupOmL0KkKE-lVyLI5izJRGCDIsjmLMlEYIJqJnzkzx8yA_jhNjCGaUYS4qcXtmf0ZEy-UY4yjgYSS&_nc_ohc=n0T9-LBvRggQ7kNvwFaoHML&_nc_oc=AdlQzydFs1Y1TmWuhUKS6U3g5KvLqxGLPg-E3jlJqXtAnrQHnlo3x4CG43CfBmKxuo-l9Xd7AX2VjDzhtUCn-YrW&_nc_zt=23&_nc_ht=scontent.flim2-2.fna&_nc_gid=-6JQ5xvbZmdavWhRnrNpzw&oh=00_AfYVIPzQWpWe24w3KWH0NAFhBDOv9Kof4sh70hqEKj2NQA&oe=68CCA10B',
     location: {
-      lat: -12.3876,
-      lng: -74.8734,
+      lat: -12.381991274722019,
+      lng: -74.9458285917271,
       address: 'Casa Hacienca San Juan de Pillo, Pampas, Tayacaja'
     },
     rating: 4.7,
@@ -78,12 +78,40 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'Ustuna es un atractivo natural de Pampas ideal para los amantes del trekking y la aventura. Su entorno boscoso, lleno de vegetación y aire puro, ofrece paisajes únicos que invitan a recorrer sus senderos rodeados de naturaleza. Es un espacio perfecto para desconectarse del ruido urbano, disfrutar de caminatas al aire libre y contemplar la riqueza ecológica de la zona. Ustuna combina tranquilidad, frescura y belleza natural, convirtiéndose en un destino especial para quienes buscan experiencias auténticas en contacto directo con el medio ambiente.',
     image: 'https://scontent.flim2-6.fna.fbcdn.net/v/t39.30808-6/480466638_539942699103059_4691506211153674207_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFlorahQNw2Nl29X47BcfGR0biaAHPUf7rRuJoAc9R_uhgLzFYUycEdZY0fAtEQLm-SAjI8D1jh8S5Fd5KlFr4r&_nc_ohc=aFejTgkNpPkQ7kNvwGq442n&_nc_oc=AdmkIzzAg3vyu7qcUOphJzMAQyvh2QXiTDcnclHZAEU-VYXvkfUyOGqHSf_Xv5wnbTFFWvWktVJ1uIF3fF1wmA3E&_nc_zt=23&_nc_ht=scontent.flim2-6.fna&_nc_gid=qn4aMEApbIwZbyi_Ar9SwQ&oh=00_AfZyaL27GPi8BTUcgdba2cCoSlgZhKlZYftj39gpnLK8xg&oe=68CD1D1D',
     location: {
-      lat: -12.3876,
-      lng: -74.8734,
+      lat: -12.424995265512932,
+      lng: -74.87237663363383,
       address: 'Ustuna, Pampas, Tayacaja'
     },
     rating: 4.7,
     category: 'adventure'
+  },
+   {
+    id: '7',
+    name: 'Mirador de Daniel Hernandez',
+    description: 'Mirador de Daniel Hernández – Pampas, Tayacaja.',
+    fullDescription: 'El Mirador de Daniel Hernández ofrece una vista panorámica única de la ciudad de Pampas y sus alrededores. Es un espacio perfecto para apreciar la belleza del valle de Tayacaja, disfrutar de atardeceres inolvidables y conectar con la tranquilidad de la naturaleza. Además, es un punto de encuentro turístico y cultural que rinde homenaje al ilustre pintor huancavelicano Daniel Hernández, hijo de esta tierra.',
+    image: 'https://scontent.flim2-1.fna.fbcdn.net/v/t51.75761-15/505495100_18145648321391443_1491210999263616195_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFOBx1Xz9MrXq1xA_PSOo_APogvUBE-fPw-iC9QET58_CtD8cntLXN1ffKIIdYmM4WD3tBHAqdMY-nwq_w3wNgH&_nc_ohc=dc1sylsRim8Q7kNvwFUT5wH&_nc_oc=AdleQ20oS3di6l5V1xg1AoGWdPYfJjZmL2OzsQ46wJ3dr_RUIVvhPVXE_fDJ1W4mP5mctY4h03gisLtIJE6_cnBb&_nc_zt=23&_nc_ht=scontent.flim2-1.fna&_nc_gid=bm0Tn47f58ECsNhA-Zb6IA&oh=00_AfZO9R5ArSpw6e7VK3TH9eg6h84cw6TB6Pth6Jz3ULgiGA&oe=68CD166F',
+    location: {
+      lat: -12.395476882472316,
+      lng: -74.86051813440112,
+      address: 'Ustuna, Pampas, Tayacaja'
+    },
+    rating: 4.7,
+    category: 'natural'
+  },
+  {
+    id: '8',
+    name: 'Parque ecologico de Pampas',
+    description: 'Parque Ecológico de Pampas.',
+    fullDescription: 'El Parque Ecológico de Pampas es un espacio natural diseñado para el esparcimiento, la recreación y la conservación ambiental. Rodeado de áreas verdes y senderos, se convierte en un lugar ideal para caminatas, paseos familiares y actividades al aire libre. Además de su riqueza paisajística, promueve la educación ambiental y la valoración de la biodiversidad local. Es un destino perfecto para quienes buscan tranquilidad, contacto con la naturaleza y momentos de descanso en medio del entorno andino de Tayacaja.',
+    image: 'https://scontent.flim2-1.fna.fbcdn.net/v/t51.82787-15/516488365_18148270921391443_8993469075937358990_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEh8F4aZh4nytgW_BBARfk7aZ_ofdPgM9Npn-h90-Az0-wyL3RAguiLpL4j8jA5xc4910e4V2I37Mk92Zb6JGPL&_nc_ohc=B_1ZrE2Cl-MQ7kNvwG85H3t&_nc_oc=AdlkGGNBOYHSd6viQGgGSamZ8PiVOQcoloL3XLSFkITKKhjcYO7uIxnojR-pmGT7Fu3Tm-FydSD2j8h_qyjocnOI&_nc_zt=23&_nc_ht=scontent.flim2-1.fna&_nc_gid=OcR31CzmDR6gg2uFSQI4Ug&oh=00_AfYA9lDLCbwicK0bpIxEQlybwZqMC8e9-evQV6GNjsNz6A&oe=68CCFE72',
+    location: {
+      lat: -12.401311916436384,
+      lng: -74.87411960405657,
+      address: 'Ustuna, Pampas, Tayacaja'
+    },
+    rating: 4.7,
+    category: 'natural'
   }
 ];
 
