@@ -8,8 +8,8 @@ export const touristSpots: TouristSpot[] = [
     fullDescription: 'Pamuri, ubicado en el distrito de Acraquia, es un lugar tranquilo rodeado de naturaleza, ideal para quienes buscan descansar y desconectarse del ritmo de la ciudad. Sus paisajes verdes y el aire puro de la zona ofrecen un ambiente perfecto para disfrutar de caminatas, momentos de contemplación y experiencias en contacto con la vida rural. Es un rincón de paz en Tayacaja que invita a descubrir la belleza natural de Huancavelica.',
     image: 'https://pamuriandeslodge.com/wp-content/uploads/2025/02/kit-de-actividades-Pamuri-2025.png',
     location: {
-      lat: -12.4089,
-      lng: -74.8597,
+      lat: -12.391587,
+      lng: -74.910581,
       address: 'Pamuri Acraquia, Pampas, Tayacaja'
     },
     rating: 4.8,
@@ -70,6 +70,20 @@ export const touristSpots: TouristSpot[] = [
     },
     rating: 4.7,
     category: 'adventure'
+  },
+  {
+    id: '6',
+    name: 'Ustuna',
+    description: 'Un destino ideal para el trekking en Pampas, rodeado de un entorno boscoso y verde que invita a la aventura y al contacto con la naturaleza.',
+    fullDescription: 'Ustuna es un atractivo natural de Pampas ideal para los amantes del trekking y la aventura. Su entorno boscoso, lleno de vegetación y aire puro, ofrece paisajes únicos que invitan a recorrer sus senderos rodeados de naturaleza. Es un espacio perfecto para desconectarse del ruido urbano, disfrutar de caminatas al aire libre y contemplar la riqueza ecológica de la zona. Ustuna combina tranquilidad, frescura y belleza natural, convirtiéndose en un destino especial para quienes buscan experiencias auténticas en contacto directo con el medio ambiente.',
+    image: 'https://scontent.flim2-6.fna.fbcdn.net/v/t39.30808-6/480466638_539942699103059_4691506211153674207_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFlorahQNw2Nl29X47BcfGR0biaAHPUf7rRuJoAc9R_uhgLzFYUycEdZY0fAtEQLm-SAjI8D1jh8S5Fd5KlFr4r&_nc_ohc=aFejTgkNpPkQ7kNvwGq442n&_nc_oc=AdmkIzzAg3vyu7qcUOphJzMAQyvh2QXiTDcnclHZAEU-VYXvkfUyOGqHSf_Xv5wnbTFFWvWktVJ1uIF3fF1wmA3E&_nc_zt=23&_nc_ht=scontent.flim2-6.fna&_nc_gid=qn4aMEApbIwZbyi_Ar9SwQ&oh=00_AfZyaL27GPi8BTUcgdba2cCoSlgZhKlZYftj39gpnLK8xg&oe=68CD1D1D',
+    location: {
+      lat: -12.3876,
+      lng: -74.8734,
+      address: 'Ustuna, Pampas, Tayacaja'
+    },
+    rating: 4.7,
+    category: 'adventure'
   }
 ];
 
@@ -112,7 +126,7 @@ export const restaurants: Restaurant[] = [
       { name: 'Lomo Saltado Criollo', price: 'S/ 22.00', description: 'Clásico lomo saltado con papas fritas y arroz graneado' },
       { name: 'Chicharrón de Cerdo', price: 'S/ 16.00', description: 'Chicharrón crujiente acompañado de salsa criolla y cancha' }
     ],
-    phone: '+51976543210',
+    phone: '+51978286841',
     email: 'fogonanndino@pampas.com',
     hours: '12:00 PM - 11:00 PM'
   },
@@ -133,7 +147,7 @@ export const restaurants: Restaurant[] = [
       { name: 'Torta de Maíz Morado', price: 'S/ 10.00', description: 'Deliciosa torta tradicional con maíz morado y canela' },
       { name: 'Sandwich de Pavo', price: 'S/ 14.00', description: 'Sandwich gourmet con pavo, palta y vegetales frescos' }
     ],
-    phone: '+51965432109',
+    phone: '+51925783401',
     email: 'cafedelaplaza@pampas.com',
     hours: '6:00 AM - 9:00 PM'
   }
