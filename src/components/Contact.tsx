@@ -209,7 +209,7 @@ export default function Contact() {
               
               <div className="flex space-x-4">
                 <a
-                  href="https://www.facebook.com/carlos.silva.123829"
+                  href="https://www.facebook.com/share/19aa3cnN43/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full transition-colors duration-300 group"
@@ -217,7 +217,7 @@ export default function Contact() {
                   <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
                 </a>
                 <a
-                  href="https://www.instagram.com/karos._.c/"
+                  href="https://www.instagram.com/pampast0ur?igsh=MXdsZnpzbmdvcmliNA=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-pink-600 hover:bg-pink-700 text-white p-4 rounded-full transition-colors duration-300 group"

@@ -112,6 +112,21 @@ export const touristSpots: TouristSpot[] = [
     },
     rating: 4.7,
     category: 'natural'
+  },
+   {
+    id: '9',
+    name: 'Las Terrasas',
+    description: 'Lugarturistico para pasar un momento magico con la familia.',
+    fullDescription: 'Editar',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3PwiqgB1QqPJICCn-rfrHQuIc3Zdt-fDhZjkQ992j1A9gGjDT1r-6lqoWfwW4d-fl2D4&usqp=CAU',
+    location: {
+      lat: -12.403184767421433,
+      lng: -74.87037652637794
+,
+      address: 'Ustuna, Pampas, Tayacaja'
+    },
+    rating: 4.7,
+    category: 'natural'
   }
 ];
 
